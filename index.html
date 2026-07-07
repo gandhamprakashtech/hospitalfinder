@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Page</title>
+
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 30px auto;
+        }
+
+        header {
+            background: #0077ff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        nav {
+            background: #222;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00c3ff;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h1, h2 {
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        button {
+            background: #0077ff;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #005ecc;
+            transform: scale(1.05);
+        }
+
+        img {
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            background: #222;
+            color: white;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Welcome to My Website</h1>
+            <p>Simple HTML + CSS Template</p>
+        </header>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <section class="card">
+            <h2>About</h2>
+            <p>
+                This is a simple webpage created using HTML and CSS.
+                It includes common styling properties used in most websites.
+            </p>
+
+            <button>Learn More</button>
+        </section>
+
+        <section class="card">
+            <h2>Sample Image</h2>
+            <img src="https://picsum.photos/800/400" alt="Random Image">
+        </section>
+
+        <footer>
+            <p>&copy; 2026 My Website. All Rights Reserved.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
